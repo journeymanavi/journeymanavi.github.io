@@ -191,6 +191,10 @@ img.hero-image {
   float: right;
 }
 
+.project-content strong {
+  font-weight: 500;
+}
+
 .project-content p {
   margin-bottom: 0;
 }
@@ -315,6 +319,10 @@ img.hero-image {
   .project-header-duration {
     float: right;
   }
+
+  .project-content {
+    font-size: 0.9em;
+  }
 }
 
 @media print {
@@ -385,5 +393,9 @@ img.hero-image {
 
   .project-header-duration {
     float: right;
+  }
+
+  .project-content {
+    font-size: 0.9em;
   }
 }
