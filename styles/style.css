@@ -353,6 +353,7 @@ img.hero-image {
   .container {
     max-width: 960px;
     margin: 0 auto;
+    padding-top: 0;
   }
 
   section {
@@ -361,6 +362,7 @@ img.hero-image {
 
   .card {
     padding: 1rem;
+    box-shadow: none;
   }
 
   .card-profile-header {
@@ -385,6 +387,11 @@ img.hero-image {
     width: 100%;
     height: initial;
     page-break-after: always;
+  }
+
+  .project {
+    box-shadow: none;
+    background-color: white;
   }
 
   .project-header-title {
