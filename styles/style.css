@@ -150,6 +150,7 @@ img.profile-image {
 
 .profile-image-large-wrapper img.profile-image {
   width: 16rem;
+  height: 16rem;
   outline: none;
 }
 
@@ -294,6 +295,7 @@ img.profile-image {
 
   .profile-image-large-wrapper img.profile-image {
     width: 10rem;
+    height: 10rem;
   }
 }
 
