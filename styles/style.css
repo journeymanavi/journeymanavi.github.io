@@ -478,7 +478,6 @@ a.fab:hover > img {
   img.hero-image {
     width: 100%;
     height: initial;
-    page-break-after: always;
   }
 
   .project {
