@@ -146,6 +146,7 @@ section > p {
   left: 50%;
   transform: translate(-50%, -30%);
   transition: transform 200ms ease-in-out;
+  -webkit-backface-visibility: hidden;
 }
 
 .card-small:hover > .card-image > img {
