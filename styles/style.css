@@ -340,6 +340,15 @@ a.fab:hover {
   box-shadow: 0 3px 3px 1px rgba(0,0,0,.2),1px 3px 1px -2px rgba(0,0,0,.2),-1px 1px 5px 0 rgba(0,0,0,.12);
 }
 
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer .heart {
+  color: #bb0000;
+}
+
 /* MOBILE ------------------------------------------------------------------- */
 @media only screen and (max-width: 480px) {
   hr {
@@ -402,6 +411,12 @@ a.fab:hover {
     margin-bottom: 0.5rem;
     margin-right: 0.5rem;
   }
+
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+  }
 }
 
 /* TABLET ------------------------------------------------------------------- */
@@ -417,8 +432,14 @@ a.fab:hover {
   }
 
   .grid-col.m4 > *:nth-child(2n+1) {
-  margin-left: 0;
-}
+    margin-left: 0;
+  }
+
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
 }
 
 /* DESKTOP ------------------------------------------------------------------ */
