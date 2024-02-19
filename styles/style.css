@@ -146,6 +146,7 @@ section > p {
   left: 50%;
   transform: translate(-50%, -30%);
   transition: transform 200ms ease-in-out;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
