@@ -1,274 +1,57 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta 
-      name="viewport" 
-      content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>Welcome to Applied Solutions!</title>
-    <link 
-      rel="stylesheet" 
-      href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" 
-      type="text/css">
-    <link rel="stylesheet" href="../styles/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shilpa Agrawal - Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="header-ribbon">
-    <div class="fab-container">
-      <a title="LinkedIn" href="https://www.linkedin.com/in/avinash-agrawal-65b28041" target="_blank" class="fab">
-        <img src="../images/linkedin-icon.png" alt="linkedin">
-      </a>
-      <a title="GitHub" href="https://github.com/journeymanavi" target="_blank" class="fab">
-        <img src="../images/github-icon.png" alt="github">
-      </a>
-      <a title="print" href="javascript:window.print()" class="fab print">
-        <img src="../images/print-icon.png" alt="print">
-      </a>
-    </div>
-    <div class="container">
-      <section class="card">
-        <div class="card-profile-header">
-          <img class="profile-image" src="../images/shilpa_profile_square.jpg" alt="Avinash Agrawal">
-          <div class="card-profile-title">
-            <h1>Shilpa Agrawal</h1>
-            <hr>
-            <h3>Scrum Master and Agile Coach</h2>
-          </div>
+  <body>
+    <header class="container">
+      <a href="/shilpa/blog/"><div class="blog-title">Wanderlust</div></a>
+    </header>
+    <main>
+      <div class="blog-hero">
+        <div class="container">
+          <img
+            src="https://picsum.photos/seed/27/1024/650"
+            width="1024"
+            alt="blog list page hero image"
+          />
         </div>
-
-        <div class="clearfix"></div>
-        <p>Passionate software engineer with <strong>12 years of varied 
-        experience</strong>. Recognised for solid engineering acumen,
-        quick learning ability, dependable delivery
-        ownership and effective interpersonal skills.</p>
-        
-        <p>Practicing web developer with specific focus on <strong>web front-end 
-        engineering using the modern JavaScript stack</strong>. Aspires to become 
-        a consummate web front-end architect.</p>
-        
-        <p>Pragmatic practitioner of <strong>Agile methodologies (Scrum and XP)
-        </strong>, with a strong belief in the principles of agililty as a 
-        differentiating factor for high quality software craftsmanship and 
-        delivery.</p>
-        
-        <p>Went through a career inflection point and <strong>re-started as a 
-        web developer after a successful 9 year stint in IT services</strong>. 
-        During that time, worked in the Investment Banking domain, executing large 
-        global projects with roles encompassing offshore delivery leadership, 
-        onshore consulting and hand-on development.</p>
-      </section>
-
-      <section class="card">
-        <h2>At a glance</h2>
-        <div class="hero-image-wrapper">
-          <img 
-            class="hero-image" 
-            src="../images/Avinash Professional Summary - Aug 2017.png" 
-            alt="Avinash Agrawal - Career at a glance">
-        </div>
-      </section>
-
-      <!-- <section class="card-list-horizontal">
-        <h2>Projects</h2>
-        <ul class="card-list">
-          <li class="card card-small">
-            <img src="https://unsplash.it/150/100?image=100" alt="">
-            <p>Something</p>
-          </li>
-          <li class="card card-small">
-            <img src="https://unsplash.it/150/100?image=10" alt="">
-            <p>Something</p>
-          </li>
-          <li class="card card-small">
-            <img src="https://unsplash.it/150/100?image=1033" alt="">
-            <p>Something</p>
-          </li>
-          <li class="card card-small">
-            <img src="https://unsplash.it/150/100?image=1002" alt="">
-            <p>Something</p>
-          </li>
-          <li class="card card-small">
-            <img src="https://unsplash.it/150/100?image=1002" alt="">
-            <p>Something</p>
+      </div>
+      <div class="blog-list">
+        <ul class="container">
+          <li>
+            <h2>2024</h2>
+            <ul>
+              <li>
+                <h3>February</h3>
+                <ul>
+                  <li>
+                    <a href="./2024/february/infinity-and-beyond/">
+                      <h4>&#10095; Infinity and Beyond</h4>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
         </ul>
-      </section> -->
-
-      <section class="card">
-        <h2>In Detail</h2>
-
-        <section class="section-company">
-          <h3>Freelance Web Developer, Pune, India</h3><hr>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">GlitzDesign.us</h4>
-              <h4 class="project-header-duration">Jun, 2015 to Present</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <p><strong>E-Commerce implementation using Shopify</strong> for a US based diamond 
-              jewelry retail business.</p>
-              <ul>
-                <li>Research and analysis to identify best ecommerce solution.</li>
-                <li>Shopify implementation with extensive theme customization - 
-                  <strong>Liquid Templating, HTML, CSS and JavaScript</strong>.</li>
-                <li>Adding new UI features not included in the Shopify theme, 
-                  like - promotional pop-ups, visually rich ‘about us’ page, 
-                  visually rich ‘diamond and jewelry education page’, product 
-                  specifications grid, product image thumbnails etc.</li>
-                <li>Website SEO by fine tuning static and generated HTML markup, 
-                  URLs and copy text.</li>
-                <li>Ongoing support.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">Deucemark.com</h4>
-              <h4 class="project-header-duration">Oct, 2015 to Dec, 2015</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <p>Built a <strong>basic CRUD app using Ruby on Rails</strong>, for diamond jewelry 
-              authenticity certificate lookup. Scope included <strong>setting up a cloud 
-              VPS based Linux production server</strong> from scratch.</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-company">
-          <h3>Equal Experts - Niche IT Services</h3><hr>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">Enterprise Web Developer - Pune, India</h4>
-              <h4 class="project-header-duration">Aug, 2012 to Jul, 2014</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <p>Worked as a <strong>full-stack enterprise web developer and technical 
-              lead</strong>, building parts of a digital platform for a major UK 
-              based telecom service provider.</p>
-              <ul>
-                <li>Designed and built a high traffic <strong>REST API</strong> middleware using 
-                <strong>JavaEE/Spring</strong>, to act as the backend for Android and iOS Apps 
-                used by more than a million users.</li>
-                <li>Built a mobile web app using adaptive and responsive web 
-                design, in the form of an <strong>Angular 1.4 based single page app</strong>.</li>
-                <li>Rebuilt the front-end of an existing JavaEE based web app 
-                in the form of an Angular 1.4 based single page app.</li>
-                <li>Extensively used <strong>Agile</strong> practices, including scrum, test 
-                driven development and pair-programming.</li>
-                <li>Implemented <strong>Cucumber+Selenium</strong> based automated functional 
-                tests, <strong>Jenkins</strong> based CI pipeline and <strong>Swagger</strong> based REST API 
-                Docs, MongoDB based app analytics store.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-company">
-          <h3>J.P. Morgan - Investment Bank</h3><hr>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">Application Developer Lead - Mumbai, India</h4>
-              <h4 class="project-header-duration">Aug, 2009 to Jul, 2012</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <ul>
-                <li><strong>Built an offshore application development team</strong> from the 
-                ground up - recruitment, coaching &amp; mentoring.</li>
-                <li>Responsible for team’s technical, business and professional 
-                knowledge development, and ongoing management.</li>
-                <li>As a lead - <strong>overseeing offshore delivery</strong> of small and medium 
-                projects and BAU tasks.</li>
-                <li>As an individual contributor - working in the capacity of a 
-                <strong>senior developer and business analyst</strong> within the global team, 
-                responsible for handling major projects.</li>
-                <li>Tech stack - <strong>Perl + Shell script</strong> based bespoke ETL suite, 
-                <strong>Excel VBA</strong> based tactical reporting tools, Autosys based 
-                overnight batch processing, <strong>Oracle</strong> based data warehouse.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-company">
-          <h3>Cognizant Technology Solutions - IT Services</h3><hr>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">Senior Consultant - London, UK</h4>
-              <h4 class="project-header-duration">Jul 2007 – Aug 2009</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <p>The engagement involved working in a <strong>wide range of on-site consulting roles</strong> at a global investment bank. Roles included:</p>
-              <ul>
-                <li>Trading desk aligned <strong>RAD developer</strong> - using Excel VBA .</li>
-                <li><strong>Business analyst</strong> - responsible for functional test analysis, 
-                specification and facilitation with end-users.</li>
-                <li><strong>Senior Application Developer</strong> for a program involving a 
-                global, multi-year technology platform migration. Tech stack - 
-                Perl + Shell based ETL layer, Excel VBA based reporting tools, 
-                Sybase data store.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">Offshore Project Lead - Pune, India</h4>
-              <h4 class="project-header-duration">Sep 2006 – Jul 2007</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <p><strong>Lead the end-to-end offshore delivery of a tactical software 
-              solution</strong> to satisfy a key and time-critical regulatory compliance 
-              requirement for a global investment bank.</p>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">Application Support Analyst - London, UK</h4>
-              <h4 class="project-header-duration">Jun 2005 – Sep 2006</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <p>Worked as a client facing <strong>application support analyst</strong> responsible for:</p>
-              <ul>
-                <li>Day-to-day user query resolution, user onboarding and training.</li>
-                <li>Coordination with various stakeholders during system upgrades and outages.</li>
-                <li>Automating day-to-day application monitoring, alerting and KPI 
-                tracking processes, resulting in time-save and increased reliability.</li>
-                <li>Streamlining interaction between cross-location, multicultural 
-                support teams (Hong Kong, London and Houston) to achieve more 
-                robust service levels and better application stability.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="project-header">
-              <h4 class="project-header-title">Applications Developer - Pune, India</h4>
-              <h4 class="project-header-duration">Oct 2003 – May 2005</h4>
-              <hr class="clearfix">
-            </div>
-            <div class="project-content">
-              <p>Worked as an <strong>offshore VB6 front-end programmer</strong> for a large, 
-              global investment bank. Demonstrated ability to convert complex 
-              functional requirements into high quality, defect-free technical 
-              implementation, with minimal supervision.</p>
-            </div>
-          </div>
-        </section>
-
-      </section>
-    </div>
-  </div>
+      </div>
+    </main>
+    <footer class="container">
+      &copy; 2024 Shilpa Agrawal. All rights reserved.
+    </footer>
   </body>
 </html>
