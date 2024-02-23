@@ -352,14 +352,15 @@ ul ul {
   }
 
   .section-carousal figure:first-child img {
-    box-shadow: 0px 10px 30px -3px rgba(0, 0, 0, 0.3),
-      0px 2px 4px -1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 8px -1px rgba(0, 0, 0, 0.25);
     border: 10px solid white;
     transform: rotate(-7deg) translateX(-5px) translateY(10px);
-    transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out, box-shadow 300ms ease-in-out;
   }
 
   .section-carousal figure:first-child img:hover {
+    box-shadow: 0px 10px 30px -3px rgba(0, 0, 0, 0.3),
+      0px 2px 4px -1px rgba(0, 0, 0, 0.05);
     transform: rotate(-2deg) translateX(-5px) translateY(10px) scale(120%);
   }
 }
