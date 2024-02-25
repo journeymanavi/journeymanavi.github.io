@@ -283,7 +283,7 @@ ul ul {
 
 @media screen and (min-width: 1024px) {
   .blog-post-hero {
-    min-height: 100vh;
+    min-height: 700px;
     display: flex;
   }
 
