@@ -397,6 +397,7 @@ ul ul {
   width: 100%;
   object-fit: cover;
   object-position: center;
+  height: auto;
 }
 
 @media screen and (min-width: 1024px) {
@@ -469,6 +470,11 @@ ul ul {
   left: -3rem;
 }
 
+.more-photos-link {
+  padding: 1rem 0 2rem;
+  text-align: center;
+}
+
 @media screen and (min-width: 1024px) {
   .section-gray .section-text {
     padding-right: calc(300px + 2rem);
@@ -485,6 +491,10 @@ ul ul {
 
   .section-gray .section-carousal figure:first-child img:hover {
     transform: rotate(3deg) translateX(5px) translateY(20px) scale(120%);
+  }
+
+  .more-photos-link {
+    text-align: left;
   }
 }
 
